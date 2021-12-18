@@ -17,13 +17,14 @@ I have made use of the following dataset for the training and the evaluation pur
 ## Usage  
 
 
-**Train**
+**For Training**
 
-'''python3 main.py --epochs 300 --iter 3 --integrate --train_data PATH_TO_TRAIN_DATA_ROOT --valid_data PATH_TO_VALID_DATA_ROOT --exp 1 --backend YOUR_BACKEND'''
+```
+python3 main.py --epochs 300 --iter 3 --integrate --train_data PATH_TO_TRAIN_DATA_ROOT --valid_data PATH_TO_VALID_DATA_ROOT --exp 1 --backend YOUR_BACKEND
+```
 
-**Evaluate**
+**For Evaluating**
 
-*Save metrics and segmentations:*
 ```
 python3 main.py --evaluate_only --save_result --valid_data PATH_TO_VALID_DATA_ROOT --exp 1  --backend YOUR_BACKEND
 ```
